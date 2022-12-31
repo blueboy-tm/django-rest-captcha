@@ -5,7 +5,7 @@ packages = \
 ['rest_captcha']
 
 package_data = \
-{'': ['*'], 'rest_captcha': ['fonts/*']}
+{'': ['*'], 'rest_captcha': ['fonts/*', 'locale/*/*/*']}
 
 install_requires = \
 ['Pillow>=4.3.0', 'django', 'djangorestframework>=3.5,<4.0']
